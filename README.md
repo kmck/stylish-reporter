@@ -6,8 +6,10 @@ Loosely based on [jshint-stylish-ex](https://www.npmjs.com/package/jshint-stylis
 
 ### Warning
 
-I only wrote this because I `scss-lint` didn't already have Stylish formatting that I could use in
-the command line. I haven't tested it on JSON-formatted output from other linters. Maybe it works?
+I only wrote this because `scss-lint` didn't already have Stylish formatting that I could use in
+the command line.
+
+I haven't tested it on JSON-formatted output from other linters. Maybe it works?
 Who knows! You're welcome to find out and submit a pull request if it doesn't.
 
 ## Usage

@@ -1,6 +1,6 @@
 {
   "name": "stylish-reporter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts JSON-formatted linter errors to Stylish",
   "main": "./lib/stylish-reporter.js",
   "preferGlobal": true,
@@ -16,6 +16,12 @@
   },
   "author": "Keith McKnight",
   "license": "MIT",
+  "keywords": [
+    "stylish",
+    "lint",
+    "reporter",
+    "scss-lint"
+  ],
   "dependencies": {
     "chalk": "^1.1.1",
     "lodash": "^4.2.1",
