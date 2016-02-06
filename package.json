@@ -1,0 +1,32 @@
+{
+  "name": "stylish-reporter",
+  "version": "1.0.0",
+  "description": "Converts JSON-formatted linter errors to Stylish",
+  "main": "./lib/stylish-reporter.js",
+  "preferGlobal": true,
+  "bin": {
+    "stylish-reporter": "./lib/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/kmck/stylish-reporter"
+  },
+  "author": "Keith McKnight",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "lodash": "^4.2.1",
+    "minimist": "^1.2.0",
+    "sprintf-js": "^1.0.3",
+    "text-table": "^0.2.0",
+    "word-wrap": "^1.1.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  }
+}
